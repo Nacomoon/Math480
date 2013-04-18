@@ -14,9 +14,9 @@ where x1 is the value of the entering variable, x2 is the value of the entering 
 y1 is the index corresponding to the the entering variable(and the column of the entering variable)
 and y2 is the row of the entering variable. y1 and y2 are 0 based
 Ex:
-a = [[1.0, 4.0, 3.0], [2.0, 2.0, 2.0], [3.0, 0.0, 1.0]]
-b = [3.0,3.0,3.0]
-c = [5.0,2.0,-1.0]
-x = MaxSimplex(a,b,c)
-x.class_field
+>>a = [[1.0, 4.0, 3.0], [2.0, 2.0, 2.0], [3.0, 0.0, 1.0]]
+>>b = [3.0,3.0,3.0]
+>>c = [5.0,2.0,-1.0]
+>>x = MaxSimplex(a,b,c)
+>>x.class_field
 >>((5.0, 0), (3.0, 2))
